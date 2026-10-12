@@ -10,3 +10,8 @@ WhatsApp: +52 33 1249 8043. Mensaje precargado para pedidos de Rincón del Atrac
 Opciones de entrega indicadas por el cliente: Uber Eats, Rappi y DiDi Food. Se muestran sus nombres; los enlaces específicos del negocio aún no han sido suministrados.
 
 Música viernes/sábado: programación propuesta por el cliente, pendiente de confirmar. Validado a 320, 390, 430, 768 y 1440 px: sin desbordamiento, logo visible, destino WhatsApp correcto, dirección del mapa y tres plataformas.
+
+## Propuesta editorial
+Paleta vino, crema y olivo tomada del logo. Carta al inicio; se retiraron secciones duplicadas, referencias a días no confirmados y enlaces sociales sin destino. Fotografía con encuadres uniformes y tratamiento de color; sigue siendo ilustrativa. Animaciones breves y respeto de movimiento reducido. Se mantiene carta continua y desplazamiento vertical sobre ella.
+
+Tarjeta para mesa: tarjeta-mesa.html + qr-carta.png. Tamaño de impresión 105 × 148 mm; imprimir al 100 %, sin encabezado ni pie. QR enlaza directamente a la carta pública #antojitos. Mantener logo-rincon.png junto a la tarjeta.
