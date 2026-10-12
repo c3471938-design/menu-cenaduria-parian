@@ -48,7 +48,7 @@ Navegador a 320, 390, 430, 768 y 1440 px: fotos cargadas, títulos sin recortes,
 
 ## Carta completa compacta
 
-El apartado Menú completo reúne 21 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Con alcohol. Muestra hasta tres opciones por página, con Anterior y Siguiente, sin desplazamiento interno. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
+El apartado Menú completo reúne 21 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Con alcohol. Muestra tarjetas grandes con fotos y desplazamiento horizontal nativo, sin botones Anterior/Siguiente. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
 
 Validación: cinco tamaños de pantalla, categorías y precios, navegación con teclado, lectura sin JavaScript y altura total de la página igual o menor que la versión anterior.
 
@@ -67,7 +67,7 @@ Las fotografías existentes de platillos siguen siendo referencias; las fotos no
 
 ## Lectura y contactos depurados
 
-Carta con hasta tres platillos por página: botones Anterior y Siguiente, categorías y contador. No requiere desplazar una lista interna. Las cantidades y precios se presentan en columnas separadas.
+Carta ampliada con carrusel táctil: desliza a izquierda o derecha, elige categoría o usa las flechas del teclado. Las cantidades y precios se presentan en columnas separadas.
 
 WhatsApp flotante con texto visible también en celular, mayor prioridad visual y respeto del área segura. Sin número, como se solicitó. Iconos sociales discretos y separados en el pie; icono SVG de moto para reparto.
 
@@ -81,3 +81,15 @@ El mapa permanece como un espacio ilustrativo hasta recibir la ubicación exacta
 En config.js, mapsQuery acepta una dirección completa, nombre inequívoco de local o coordenadas latitud,longitud. mapsAddress es el texto de dirección visible. Con esos datos, map.js crea el mapa integrado con carga diferida y convierte Cómo llegar en un enlace de indicaciones. Mantén map.js junto a los demás archivos al publicar.
 
 Si recibes un enlace corto de Maps, primero confirma la dirección o coordenadas a las que corresponde; no coloques el enlace corto como consulta del mapa.
+
+
+
+## Carta fotográfica deslizable
+
+Todas las 21 tarjetas del menú tienen fotografía de referencia. Se conservan cantidades y precios de la carta proporcionada. El menú es más amplio y sus fotos son mayores; se recorre con un gesto horizontal nativo y ajuste a cada tarjeta. En computadora también permite arrastrar con el ratón y usar flechas del teclado. Las categorías siguen accesibles por pestañas.
+
+Una mano vectorial y el texto Desliza hacia la izquierda indican que hay más productos; el contador cambia al deslizar. La animación se detiene después de la primera interacción y respeta movimiento reducido.
+
+Créditos de las fotografías nuevas, autores y licencias: creditos.html, enlazado desde la carta. Algunas fotografías se usan como referencia de presentaciones similares: agua natural/mineral, tequila/mezcal y las variantes de enchiladas. No muestran necesariamente el servicio real del negocio.
+
+Validación: gesto táctil nativo, navegación por teclado, restablecimiento de categoría, 21 fotos cargadas, ausencia de botones de paginación y cinco tamaños de pantalla.
