@@ -48,7 +48,7 @@ Navegador a 320, 390, 430, 768 y 1440 px: fotos cargadas, títulos sin recortes,
 
 ## Carta completa compacta
 
-El apartado Menú completo reúne 21 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Con alcohol. Tiene desplazamiento interno para no alargar la página. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
+El apartado Menú completo reúne 21 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Con alcohol. Muestra hasta tres opciones por página, con Anterior y Siguiente, sin desplazamiento interno. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
 
 Validación: cinco tamaños de pantalla, categorías y precios, navegación con teclado, lectura sin JavaScript y altura total de la página igual o menor que la versión anterior.
 
@@ -62,3 +62,13 @@ WhatsApp flotante sin número, según lo solicitado. Los iconos Instagram y Face
 Se copiaron tamaños MI/CH/M/G de pozole sin expandir abreviaturas no confirmadas; órdenes de enchiladas, tacos y flautas; precio por pieza de tostadas, gorditas, sopes y quesadillas; bebidas y los postres helados y jericillas. La receta y el precio de muestra anteriores se retiraron. No se inventan precios para alcohol.
 
 Las fotografías existentes de platillos siguen siendo referencias; las fotos no disponibles tienen un espacio preparado. Los postres muestran una ilustración de sobremesa en lugar de presentar la antigua foto de flan como jericilla.
+
+
+
+## Lectura y contactos depurados
+
+Carta con hasta tres platillos por página: botones Anterior y Siguiente, categorías y contador. No requiere desplazar una lista interna. Las cantidades y precios se presentan en columnas separadas.
+
+WhatsApp flotante con texto visible también en celular, mayor prioridad visual y respeto del área segura. Sin número, como se solicitó. Iconos sociales discretos y separados en el pie; icono SVG de moto para reparto.
+
+Verificado: cinco tamaños de pantalla, paginación completa, cambio de categoría y botón WhatsApp visible por encima de los demás elementos.
