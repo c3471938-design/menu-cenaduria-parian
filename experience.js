@@ -10,9 +10,13 @@
  const config=window.MILPA_CONFIG||{};
  const number=String(config.whatsapp||'').replace(/\D/g,'');
  if(number.length>=10&&number.length<=15){
-  document.querySelectorAll('[data-whatsapp]').forEach(link=>{link.href=`https://wa.me/${number}?text=${encodeURIComponent(config.message||'Hola, quiero hacer un pedido a domicilio.')}`;link.target='_blank';link.rel='noopener noreferrer'});
+  document.querySelectorAll('[data-whatsapp]').forEach(link=>{link.href=`https://wa.me/${number}?text=${encodeURIComponent(config.message||'Hola, quiero hacer un pedido a domicilio.')}`;link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label','Contactar por WhatsApp')});
   document.getElementById('contacto-pendiente').textContent='Confirma tu pedido, cobertura y entrega con nuestro equipo.';
  }
+ document.querySelectorAll('[data-social]').forEach(link=>{
+  const key=link.dataset.social;const value=config[key];if(!value)return;
+  try{const url=new URL(value);const host=url.hostname.toLowerCase();const allowed=key==='instagram'?['instagram.com','www.instagram.com']:['facebook.com','www.facebook.com','m.facebook.com'];if(url.protocol==='https:'&&allowed.includes(host)){link.href=url.href;link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label',key==='instagram'?'Instagram del negocio':'Facebook del negocio')}}catch{}
+ });
  let pending=false;const progress=document.querySelector('.reading-progress');
  function update(){
   const height=document.documentElement.scrollHeight-innerHeight;

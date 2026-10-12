@@ -20,7 +20,7 @@ Completa whatsapp en config.js con el número internacional real, solo dígitos.
 
 El enlace al mapa apunta al conjunto El Parián, no a un local individual. Sustitúyelo por el enlace exacto del negocio cuando lo tengas. La ubicación del negocio en El Parián fue indicada por el usuario.
 
-La Milpa sigue siendo un nombre de concepto. Edita precios, ingredientes, porciones y nombre en index.html; los precios y la receta del pozole son ejemplos. Confirma los datos antes de presentar la página como carta real.
+La Milpa sigue siendo un nombre de concepto. Edita precios, ingredientes, porciones y nombre en index.html; los platillos, porciones y precios se adaptaron a las tres imágenes de la carta proporcionadas por el usuario. Los precios de alcohol no aparecen en ellas y se muestran como Consultar. Confirma los datos antes de presentar la página como carta real.
 
 ## Referencia del lugar
 
@@ -48,7 +48,17 @@ Navegador a 320, 390, 430, 768 y 1440 px: fotos cargadas, títulos sin recortes,
 
 ## Carta completa compacta
 
-El apartado Menú completo reúne 26 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Extras. Tiene desplazamiento interno para no alargar la página. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
+El apartado Menú completo reúne 21 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Con alcohol. Tiene desplazamiento interno para no alargar la página. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
 
 Validación: cinco tamaños de pantalla, categorías y precios, navegación con teclado, lectura sin JavaScript y altura total de la página igual o menor que la versión anterior.
 
+
+
+
+## Contactos y carta proporcionada
+
+WhatsApp flotante sin número, según lo solicitado. Los iconos Instagram y Facebook no enlazan a cuentas externas mientras sus campos en config.js estén vacíos. Completa whatsapp, instagram y facebook para conectar los contactos del negocio. Hasta entonces los botones dirigen al aviso de contacto pendiente.
+
+Se copiaron tamaños MI/CH/M/G de pozole sin expandir abreviaturas no confirmadas; órdenes de enchiladas, tacos y flautas; precio por pieza de tostadas, gorditas, sopes y quesadillas; bebidas y los postres helados y jericillas. La receta y el precio de muestra anteriores se retiraron. No se inventan precios para alcohol.
+
+Las fotografías existentes de platillos siguen siendo referencias; las fotos no disponibles tienen un espacio preparado. Los postres muestran una ilustración de sobremesa en lugar de presentar la antigua foto de flan como jericilla.
