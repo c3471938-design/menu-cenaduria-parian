@@ -6,7 +6,7 @@ Adaptación del diseño aprobado, conservando fotografías, platillos y distribu
 
 Abre index.html. Mantén styles.css, parian.css, config.js, experience.js y la carpeta assets a su lado. Funciona localmente sin internet; los enlaces de WhatsApp y mapa sí requieren conexión.
 
-Sube estos archivos a la raíz del repositorio GitHub, activa GitHub Pages y usa la URL pública para el QR. Publicado en GitHub Pages: https://c3471938-design.github.io/menu-cenaduria-parian/ . Los cambios guardados en main actualizan la página automáticamente. El ZIP contiene solo los archivos para publicar; no incluye scripts de prueba ni respaldos.
+Sube estos archivos a la raíz del repositorio GitHub, activa GitHub Pages y usa la URL pública para el QR. Página pública: https://c3471938-design.github.io/menu-cenaduria-parian/ . El ZIP contiene solo los archivos para publicar; no incluye scripts de prueba ni respaldos.
 
 ## Música en vivo
 
@@ -44,4 +44,11 @@ Fuentes de Google Fonts incluidas, con licencias SIL Open Font License en assets
 ## Validación
 
 Navegador a 320, 390, 430, 768 y 1440 px: fotos cargadas, títulos sin recortes, sin desbordamiento horizontal, navegación a música en vivo. Lectura sin JavaScript, movimiento reducido, días de agenda y enlace de WhatsApp configurable comprobados. No se enviaron mensajes en las pruebas.
+
+
+## Carta completa compacta
+
+El apartado Menú completo reúne 26 opciones con precio y espacio para fotografía, en las categorías Antojitos, Bebidas, Postres y Extras. Tiene desplazamiento interno para no alargar la página. Las fotos disponibles se muestran; las restantes tienen un espacio Foto, sin representar otro producto. Añade sus imágenes y edita las filas directamente en index.html. Conserva también menu.js al abrir o publicar.
+
+Validación: cinco tamaños de pantalla, categorías y precios, navegación con teclado, lectura sin JavaScript y altura total de la página igual o menor que la versión anterior.
 
