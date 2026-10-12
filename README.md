@@ -72,3 +72,12 @@ Carta con hasta tres platillos por página: botones Anterior y Siguiente, catego
 WhatsApp flotante con texto visible también en celular, mayor prioridad visual y respeto del área segura. Sin número, como se solicitó. Iconos sociales discretos y separados en el pie; icono SVG de moto para reparto.
 
 Verificado: cinco tamaños de pantalla, paginación completa, cambio de categoría y botón WhatsApp visible por encima de los demás elementos.
+
+
+## Widget de ubicación preparado
+
+El mapa permanece como un espacio ilustrativo hasta recibir la ubicación exacta. No hay llamadas a Google Maps mientras mapsQuery esté vacío.
+
+En config.js, mapsQuery acepta una dirección completa, nombre inequívoco de local o coordenadas latitud,longitud. mapsAddress es el texto de dirección visible. Con esos datos, map.js crea el mapa integrado con carga diferida y convierte Cómo llegar en un enlace de indicaciones. Mantén map.js junto a los demás archivos al publicar.
+
+Si recibes un enlace corto de Maps, primero confirma la dirección o coordenadas a las que corresponde; no coloques el enlace corto como consulta del mapa.
