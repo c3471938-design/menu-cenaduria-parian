@@ -1,3 +1,2 @@
-// Número internacional del negocio, solo dígitos (ejemplo de formato México: 52 + 10 dígitos).
-// Vacío mientras no exista un número confirmado. No inventar un destinatario.
-window.MILPA_CONFIG = { whatsapp: '', instagram: '', facebook: '', mapsQuery: '', mapsAddress: '', message: 'Hola, quiero hacer un pedido a domicilio de La Milpa. ¿Me comparten disponibilidad y cobertura?' };
+// Datos proporcionados por el negocio. Número mexicano: 52 + 10 dígitos.
+window.MILPA_CONFIG = { whatsapp: '523312498043', instagram: '', facebook: '', mapsQuery: 'C. Francisco I. Madero 44, Centro, 45500 San Pedro Tlaquepaque, Jalisco, México', mapsAddress: 'C. Francisco I. Madero 44, Centro, 45500 San Pedro Tlaquepaque, Jal.', message: 'Hola, quiero hacer un pedido a domicilio de Rincón del Atracón. ¿Me comparten disponibilidad y cobertura?' };
